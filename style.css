@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url(./imagens/Novo\ Projeto.png) ;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+header img {
+    height: 116px;
+    margin-right: 16px;
+}
+
+header{
+    display: flex;                                         /*  para que fiquem um ao lado do outro */
+    align-items:center;                                   /* para que eles fiquem centralizados na vertfical  */
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(62, 16, 100);
+    font-size: 38px;
+    border-radius: 12px;
+    margin-bottom: 82px;
+    margin-top: 40px;
+}
+.container{
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+form{
+    font-size: 94px;
+    display: flex;
+}
+
+form input{
+    font-size: 24px;
+    background-color: rgb(219, 213, 224);
+    color: black;
+    border-radius: 8px;
+    margin-bottom: 46px;
+}
+
+form button{
+    padding: 10px;
+    font-size: 24px;
+    background-color: rgb(25, 97, 25);
+    color: rgb(36, 34, 34);
+    border-radius: 8px;
+    margin-left: 23px;
+    margin-bottom: 46px;
+
+}
+
+form #numero{
+    margin-left: 185px;
+}
+
+table{
+    width: 960px;
+    max-width: 100%;
+
+}
+
+
+table th{
+    padding: 16px 58px;
+    background-color: rgba(41, 9, 59, 0.329);
+    color: rgb(42, 45, 48);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+table td{
+    padding: 16px 0px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.container{
+    background-color: rgba(56, 70, 82, 0.616);
+}
+
+
+
